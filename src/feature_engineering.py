@@ -6,8 +6,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.sparse import hstack
 
 # 2. LOAD DATASETS
-mts = pd.read_csv("mtsamples.csv", encoding='latin1')
-pres = pd.read_csv("prescription_dataset.csv")
+mts = pd.read_csv("data/mtsamples.csv", encoding='latin1')
+pres = pd.read_csv("data/prescription_dataset.csv")
 
 # 3. CLEAN MTSAMPLES DATA
 mts = mts.drop(columns=['Unnamed: 0'], errors='ignore')
