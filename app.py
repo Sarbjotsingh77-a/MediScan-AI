@@ -1,7 +1,7 @@
 # 1. Importing the libraries
 import streamlit as st
 import pdfplumber
-from predict import predict_text
+from src.predict import predict_text
 import pandas as pd
 
 # 2. Loading the prescription dataset
