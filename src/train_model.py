@@ -10,7 +10,7 @@ from src.feature_engineering import clean_text
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # 2. Loading of the dataset (samples dataset)
-df = pd.read_csv("mtsamples.csv", encoding='latin1')
+df = pd.read_csv("data/mtsamples.csv", encoding='latin1')
 
 # 3. Basic Cleaning of the Dataset 
 df = df.drop(columns=['Unnamed: 0'], errors='ignore')
