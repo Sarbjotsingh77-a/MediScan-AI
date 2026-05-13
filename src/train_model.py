@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
 # Import feature engineering function
-from feature_engineering import clean_text
+from src.feature_engineering import clean_text
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # 2. Loading of the dataset (samples dataset)
