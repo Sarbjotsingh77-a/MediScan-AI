@@ -3,10 +3,10 @@ import pickle
 import re
 
 # 2. LOAD MODEL AND VECTORIZER
-with open("model.pkl", "rb") as f:
+with open("models/model.pkl", "rb") as f:
     model = pickle.load(f)
 
-with open("vectorizer.pkl", "rb") as f:
+with open("models/vectorizer.pkl", "rb") as f:
     tfidf = pickle.load(f)
 
 # 3. TEXT PREPROCESSING
