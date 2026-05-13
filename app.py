@@ -5,7 +5,7 @@ from src.predict import predict_text
 import pandas as pd
 
 # 2. Loading the prescription dataset
-pres = pd.read_csv("prescription_dataset.csv")
+pres = pd.read_csv("data/prescription_dataset.csv")
 
 def suggest_treatment(text):
     text = text.lower()
